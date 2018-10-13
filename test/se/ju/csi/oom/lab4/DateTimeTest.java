@@ -13,12 +13,14 @@ public class DateTimeTest {
 
 	@Test
 	public void testToString() {
-		fail("Not yet implemented");
+		DateTime birth = new DateTime(1985, 4, 21, 21, 13, 37);
+		assertEquals(birth.toString(), "1985-04-21 21:13:37");
 	}
 
 	@Test
 	public void testDateTimeString() {
-		fail("Not yet implemented");
+		DateTime birth = new DateTime("1985-04-21 21:13:37");
+		assertEquals(birth.toString(), "1985-04-21 21:13:37");
 	}
 
 }
